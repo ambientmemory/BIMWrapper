@@ -1,0 +1,138 @@
+﻿Build started 5/23/2014 9:16:42 PM.
+     1>Project "C:\Users\Piyali Mukherjee\Documents\Visual Studio 2013\Projects\Wrapper_BIM_MCPP\Wrapper_BIM_MCPP\Wrapper_BIM_MCPP.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Program Files\Java\jdk\include" /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /AI"C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral" /Zi /clr:oldSyntax /nologo /W3 /WX- /sdl /Od /D _MBCS /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\mscorlib.dll" /errorReport:prompt /clr:nostdlib WrapperBIMMCPP.cpp
+     1>cl : Command line warning D9035: option 'clr:oldsyntax' has been deprecated and will be removed in a future release
+         WrapperBIMMCPP.cpp
+     1>c:\users\piyali mukherjee\documents\visual studio 2013\projects\wrapper_bim_mcpp\wrapper_bim_mcpp\WrapperBIMJava.h(70): error C2143: syntax error : missing ';' before '__cdecl'
+     1>c:\users\piyali mukherjee\documents\visual studio 2013\projects\wrapper_bim_mcpp\wrapper_bim_mcpp\WrapperBIMJava.h(70): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\piyali mukherjee\documents\visual studio 2013\projects\wrapper_bim_mcpp\wrapper_bim_mcpp\WrapperBIMJava.h(84): error C2143: syntax error : missing ';' before '__cdecl'
+     1>c:\users\piyali mukherjee\documents\visual studio 2013\projects\wrapper_bim_mcpp\wrapper_bim_mcpp\WrapperBIMJava.h(84): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\piyali mukherjee\documents\visual studio 2013\projects\wrapper_bim_mcpp\wrapper_bim_mcpp\WrapperBIMMCPP.h(10): error C2143: syntax error : missing ';' before 'gc pointer'
+     1>c:\users\piyali mukherjee\documents\visual studio 2013\projects\wrapper_bim_mcpp\wrapper_bim_mcpp\WrapperBIMMCPP.h(10): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\piyali mukherjee\documents\visual studio 2013\projects\wrapper_bim_mcpp\wrapper_bim_mcpp\WrapperBIMMCPP.h(10): error C3160: 'int __gc *' : a data member of a managed class cannot have this type
+                 an interior pointer can never be allocated on the gc heap
+     1>c:\users\piyali mukherjee\documents\visual studio 2013\projects\wrapper_bim_mcpp\wrapper_bim_mcpp\WrapperBIMMCPP.h(11): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\piyali mukherjee\documents\visual studio 2013\projects\wrapper_bim_mcpp\wrapper_bim_mcpp\WrapperBIMMCPP.h(14): warning C4183: 'WrapperClassC': missing return type; assumed to be a member function returning 'int'
+     1>c:\users\piyali mukherjee\documents\visual studio 2013\projects\wrapper_bim_mcpp\wrapper_bim_mcpp\WrapperBIMMCPP.h(17): error C2146: syntax error : missing ';' before identifier 'callWrapperCreateBuilding'
+     1>c:\users\piyali mukherjee\documents\visual studio 2013\projects\wrapper_bim_mcpp\wrapper_bim_mcpp\WrapperBIMMCPP.h(17): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\piyali mukherjee\documents\visual studio 2013\projects\wrapper_bim_mcpp\wrapper_bim_mcpp\WrapperBIMMCPP.h(17): error C2061: syntax error : identifier 'IModel'
+     1>c:\users\piyali mukherjee\documents\visual studio 2013\projects\wrapper_bim_mcpp\wrapper_bim_mcpp\WrapperBIMMCPP.h(19): warning C4183: 'callWrapperCreateBuilding': missing return type; assumed to be a member function returning 'int'
+     1>c:\users\piyali mukherjee\documents\visual studio 2013\projects\wrapper_bim_mcpp\wrapper_bim_mcpp\WrapperBIMMCPP.h(21): error C3149: 'System::String' : cannot use this type here without a top-level '*'
+     1>c:\users\piyali mukherjee\documents\visual studio 2013\projects\wrapper_bim_mcpp\wrapper_bim_mcpp\WrapperBIMMCPP.h(21): error C2061: syntax error : identifier 'IModel'
+     1>c:\users\piyali mukherjee\documents\visual studio 2013\projects\wrapper_bim_mcpp\wrapper_bim_mcpp\WrapperBIMMCPP.h(25): error C3149: 'System::String' : cannot use this type here without a top-level '*'
+     1>c:\users\piyali mukherjee\documents\visual studio 2013\projects\wrapper_bim_mcpp\wrapper_bim_mcpp\WrapperBIMMCPP.h(25): error C2061: syntax error : identifier 'IModel'
+     1>c:\users\piyali mukherjee\documents\visual studio 2013\projects\wrapper_bim_mcpp\wrapper_bim_mcpp\WrapperBIMMCPP.h(29): error C2061: syntax error : identifier 'IModel'
+     1>c:\users\piyali mukherjee\documents\visual studio 2013\projects\wrapper_bim_mcpp\wrapper_bim_mcpp\WrapperBIMMCPP.h(33): error C2146: syntax error : missing ';' before identifier 'callWrapperCreateandInitModel'
+     1>c:\users\piyali mukherjee\documents\visual studio 2013\projects\wrapper_bim_mcpp\wrapper_bim_mcpp\WrapperBIMMCPP.h(33): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\piyali mukherjee\documents\visual studio 2013\projects\wrapper_bim_mcpp\wrapper_bim_mcpp\WrapperBIMMCPP.h(33): error C2061: syntax error : identifier 'string'
+     1>c:\users\piyali mukherjee\documents\visual studio 2013\projects\wrapper_bim_mcpp\wrapper_bim_mcpp\WrapperBIMMCPP.h(35): warning C4183: 'callWrapperCreateandInitModel': missing return type; assumed to be a member function returning 'int'
+     1>c:\users\piyali mukherjee\documents\visual studio 2013\projects\wrapper_bim_mcpp\wrapper_bim_mcpp\WrapperBIMMCPP.h(37): error C2146: syntax error : missing ';' before identifier 'callWrapperCreateWall'
+     1>c:\users\piyali mukherjee\documents\visual studio 2013\projects\wrapper_bim_mcpp\wrapper_bim_mcpp\WrapperBIMMCPP.h(37): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\piyali mukherjee\documents\visual studio 2013\projects\wrapper_bim_mcpp\wrapper_bim_mcpp\WrapperBIMMCPP.h(37): error C2061: syntax error : identifier 'IModel'
+     1>c:\users\piyali mukherjee\documents\visual studio 2013\projects\wrapper_bim_mcpp\wrapper_bim_mcpp\WrapperBIMMCPP.h(39): warning C4183: 'callWrapperCreateWall': missing return type; assumed to be a member function returning 'int'
+     1>c:\users\piyali mukherjee\documents\visual studio 2013\projects\wrapper_bim_mcpp\wrapper_bim_mcpp\WrapperBIMMCPP.h(12): error C2065: 't' : undeclared identifier
+     1>c:\users\piyali mukherjee\documents\visual studio 2013\projects\wrapper_bim_mcpp\wrapper_bim_mcpp\WrapperBIMMCPP.h(12): error C2061: syntax error : identifier 'WrapperClasses'
+     1>c:\users\piyali mukherjee\documents\visual studio 2013\projects\wrapper_bim_mcpp\wrapper_bim_mcpp\WrapperBIMMCPP.h(18): error C2065: 't' : undeclared identifier
+     1>c:\users\piyali mukherjee\documents\visual studio 2013\projects\wrapper_bim_mcpp\wrapper_bim_mcpp\WrapperBIMMCPP.h(18): error C2227: left of '->WrapperCreateBuilding' must point to class/struct/union/generic type
+                 type is 'unknown-type'
+     1>c:\users\piyali mukherjee\documents\visual studio 2013\projects\wrapper_bim_mcpp\wrapper_bim_mcpp\WrapperBIMMCPP.h(18): error C2146: syntax error : missing ')' before identifier 'model'
+     1>c:\users\piyali mukherjee\documents\visual studio 2013\projects\wrapper_bim_mcpp\wrapper_bim_mcpp\WrapperBIMMCPP.h(18): error C2059: syntax error : ')'
+     1>c:\users\piyali mukherjee\documents\visual studio 2013\projects\wrapper_bim_mcpp\wrapper_bim_mcpp\WrapperBIMMCPP.h(22): error C2065: 't' : undeclared identifier
+     1>c:\users\piyali mukherjee\documents\visual studio 2013\projects\wrapper_bim_mcpp\wrapper_bim_mcpp\WrapperBIMMCPP.h(22): error C2227: left of '->WrapperRead' must point to class/struct/union/generic type
+                 type is 'unknown-type'
+     1>c:\users\piyali mukherjee\documents\visual studio 2013\projects\wrapper_bim_mcpp\wrapper_bim_mcpp\WrapperBIMMCPP.h(22): error C2275: 'System::String' : illegal use of this type as an expression
+                 c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.0\mscorlib.dll : see declaration of 'System::String'
+     1>c:\users\piyali mukherjee\documents\visual studio 2013\projects\wrapper_bim_mcpp\wrapper_bim_mcpp\WrapperBIMMCPP.h(22): error C2146: syntax error : missing ')' before identifier 'ifcFileName'
+     1>c:\users\piyali mukherjee\documents\visual studio 2013\projects\wrapper_bim_mcpp\wrapper_bim_mcpp\WrapperBIMMCPP.h(22): error C2059: syntax error : ')'
+     1>c:\users\piyali mukherjee\documents\visual studio 2013\projects\wrapper_bim_mcpp\wrapper_bim_mcpp\WrapperBIMMCPP.h(26): error C2065: 't' : undeclared identifier
+     1>c:\users\piyali mukherjee\documents\visual studio 2013\projects\wrapper_bim_mcpp\wrapper_bim_mcpp\WrapperBIMMCPP.h(26): error C2227: left of '->WrapperWrite' must point to class/struct/union/generic type
+                 type is 'unknown-type'
+     1>c:\users\piyali mukherjee\documents\visual studio 2013\projects\wrapper_bim_mcpp\wrapper_bim_mcpp\WrapperBIMMCPP.h(26): error C2275: 'System::String' : illegal use of this type as an expression
+                 c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.0\mscorlib.dll : see declaration of 'System::String'
+     1>c:\users\piyali mukherjee\documents\visual studio 2013\projects\wrapper_bim_mcpp\wrapper_bim_mcpp\WrapperBIMMCPP.h(26): error C2146: syntax error : missing ')' before identifier 'ifcFileName'
+     1>c:\users\piyali mukherjee\documents\visual studio 2013\projects\wrapper_bim_mcpp\wrapper_bim_mcpp\WrapperBIMMCPP.h(26): error C2059: syntax error : ')'
+     1>c:\users\piyali mukherjee\documents\visual studio 2013\projects\wrapper_bim_mcpp\wrapper_bim_mcpp\WrapperBIMMCPP.h(30): error C2065: 't' : undeclared identifier
+     1>c:\users\piyali mukherjee\documents\visual studio 2013\projects\wrapper_bim_mcpp\wrapper_bim_mcpp\WrapperBIMMCPP.h(30): error C2227: left of '->WrapperValidateModel' must point to class/struct/union/generic type
+                 type is 'unknown-type'
+     1>c:\users\piyali mukherjee\documents\visual studio 2013\projects\wrapper_bim_mcpp\wrapper_bim_mcpp\WrapperBIMMCPP.h(30): error C2146: syntax error : missing ')' before identifier 'modelName'
+     1>c:\users\piyali mukherjee\documents\visual studio 2013\projects\wrapper_bim_mcpp\wrapper_bim_mcpp\WrapperBIMMCPP.h(30): error C2059: syntax error : ')'
+     1>c:\users\piyali mukherjee\documents\visual studio 2013\projects\wrapper_bim_mcpp\wrapper_bim_mcpp\WrapperBIMMCPP.h(34): error C2065: 't' : undeclared identifier
+     1>c:\users\piyali mukherjee\documents\visual studio 2013\projects\wrapper_bim_mcpp\wrapper_bim_mcpp\WrapperBIMMCPP.h(34): error C2227: left of '->WrapperCreateandInitModel' must point to class/struct/union/generic type
+                 type is 'unknown-type'
+     1>c:\users\piyali mukherjee\documents\visual studio 2013\projects\wrapper_bim_mcpp\wrapper_bim_mcpp\WrapperBIMMCPP.h(34): error C2065: 'string' : undeclared identifier
+     1>c:\users\piyali mukherjee\documents\visual studio 2013\projects\wrapper_bim_mcpp\wrapper_bim_mcpp\WrapperBIMMCPP.h(34): error C2146: syntax error : missing ')' before identifier 'projectName'
+     1>c:\users\piyali mukherjee\documents\visual studio 2013\projects\wrapper_bim_mcpp\wrapper_bim_mcpp\WrapperBIMMCPP.h(34): error C2059: syntax error : ')'
+     1>c:\users\piyali mukherjee\documents\visual studio 2013\projects\wrapper_bim_mcpp\wrapper_bim_mcpp\WrapperBIMMCPP.h(38): error C2065: 't' : undeclared identifier
+     1>c:\users\piyali mukherjee\documents\visual studio 2013\projects\wrapper_bim_mcpp\wrapper_bim_mcpp\WrapperBIMMCPP.h(38): error C2227: left of '->WrapperCreateWall' must point to class/struct/union/generic type
+                 type is 'unknown-type'
+     1>c:\users\piyali mukherjee\documents\visual studio 2013\projects\wrapper_bim_mcpp\wrapper_bim_mcpp\WrapperBIMMCPP.h(38): error C2146: syntax error : missing ')' before identifier 'model'
+     1>c:\users\piyali mukherjee\documents\visual studio 2013\projects\wrapper_bim_mcpp\wrapper_bim_mcpp\WrapperBIMMCPP.h(38): error C2059: syntax error : ')'
+     1>WrapperBIMMCPP.cpp(15): error C2065: 'WrapperClassC' : undeclared identifier
+     1>WrapperBIMMCPP.cpp(15): error C2065: 't' : undeclared identifier
+     1>WrapperBIMMCPP.cpp(15): error C2061: syntax error : identifier 'WrapperClassC'
+     1>WrapperBIMMCPP.cpp(17): error C2065: 't' : undeclared identifier
+     1>WrapperBIMMCPP.cpp(17): error C2227: left of '->callWrapperCreateBuilding' must point to class/struct/union/generic type
+                 type is 'unknown-type'
+     1>WrapperBIMMCPP.cpp(17): error C2146: syntax error : missing ')' before identifier 'model'
+     1>WrapperBIMMCPP.cpp(17): error C2059: syntax error : ')'
+     1>WrapperBIMMCPP.cpp(22): error C2065: 'WrapperClassC' : undeclared identifier
+     1>WrapperBIMMCPP.cpp(22): error C2065: 't' : undeclared identifier
+     1>WrapperBIMMCPP.cpp(22): error C2061: syntax error : identifier 'WrapperClassC'
+     1>WrapperBIMMCPP.cpp(24): error C2065: 't' : undeclared identifier
+     1>WrapperBIMMCPP.cpp(24): error C2227: left of '->callWrapperRead' must point to class/struct/union/generic type
+                 type is 'unknown-type'
+     1>WrapperBIMMCPP.cpp(24): error C2275: 'System::String' : illegal use of this type as an expression
+                 c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.0\mscorlib.dll : see declaration of 'System::String'
+     1>WrapperBIMMCPP.cpp(24): error C2146: syntax error : missing ')' before identifier 'ifcFileName'
+     1>WrapperBIMMCPP.cpp(24): error C2059: syntax error : ')'
+     1>WrapperBIMMCPP.cpp(29): error C2065: 'WrapperClassC' : undeclared identifier
+     1>WrapperBIMMCPP.cpp(29): error C2065: 't' : undeclared identifier
+     1>WrapperBIMMCPP.cpp(29): error C2061: syntax error : identifier 'WrapperClassC'
+     1>WrapperBIMMCPP.cpp(31): error C2065: 't' : undeclared identifier
+     1>WrapperBIMMCPP.cpp(31): error C2227: left of '->callWrapperWrite' must point to class/struct/union/generic type
+                 type is 'unknown-type'
+     1>WrapperBIMMCPP.cpp(31): error C2275: 'System::String' : illegal use of this type as an expression
+                 c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.0\mscorlib.dll : see declaration of 'System::String'
+     1>WrapperBIMMCPP.cpp(31): error C2146: syntax error : missing ')' before identifier 'ifcFileName'
+     1>WrapperBIMMCPP.cpp(31): error C2059: syntax error : ')'
+     1>WrapperBIMMCPP.cpp(36): error C2065: 'WrapperClassC' : undeclared identifier
+     1>WrapperBIMMCPP.cpp(36): error C2065: 't' : undeclared identifier
+     1>WrapperBIMMCPP.cpp(36): error C2061: syntax error : identifier 'WrapperClassC'
+     1>WrapperBIMMCPP.cpp(38): error C2065: 't' : undeclared identifier
+     1>WrapperBIMMCPP.cpp(38): error C2227: left of '->callWrapperValidateModel' must point to class/struct/union/generic type
+                 type is 'unknown-type'
+     1>WrapperBIMMCPP.cpp(38): error C2146: syntax error : missing ')' before identifier 'modelName'
+     1>WrapperBIMMCPP.cpp(38): error C2059: syntax error : ')'
+     1>WrapperBIMMCPP.cpp(41): error C2143: syntax error : missing ';' before '__cdecl'
+     1>WrapperBIMMCPP.cpp(41): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>WrapperBIMMCPP.cpp(41): error C2086: 'int IModel' : redefinition
+                 c:\users\piyali mukherjee\documents\visual studio 2013\projects\wrapper_bim_mcpp\wrapper_bim_mcpp\WrapperBIMJava.h(70) : see declaration of 'IModel'
+     1>WrapperBIMMCPP.cpp(43): error C2065: 'WrapperClassC' : undeclared identifier
+     1>WrapperBIMMCPP.cpp(43): error C2065: 't' : undeclared identifier
+     1>WrapperBIMMCPP.cpp(43): error C2061: syntax error : identifier 'WrapperClassC'
+     1>WrapperBIMMCPP.cpp(45): error C2065: 't' : undeclared identifier
+     1>WrapperBIMMCPP.cpp(45): error C2227: left of '->callWrapperCreateandInitModel' must point to class/struct/union/generic type
+                 type is 'unknown-type'
+     1>WrapperBIMMCPP.cpp(45): error C2065: 'string' : undeclared identifier
+     1>WrapperBIMMCPP.cpp(45): error C2146: syntax error : missing ')' before identifier 'projectName'
+     1>WrapperBIMMCPP.cpp(45): error C2059: syntax error : ')'
+     1>WrapperBIMMCPP.cpp(46): warning C4508: 'Java_WrapperBIMJava_callWrapperCreateandInitModel' : function should return a value; 'void' return type assumed
+     1>WrapperBIMMCPP.cpp(48): error C2143: syntax error : missing ';' before '__cdecl'
+     1>WrapperBIMMCPP.cpp(48): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>WrapperBIMMCPP.cpp(48): error C2086: 'int IfcWallStandardCase' : redefinition
+                 c:\users\piyali mukherjee\documents\visual studio 2013\projects\wrapper_bim_mcpp\wrapper_bim_mcpp\WrapperBIMJava.h(84) : see declaration of 'IfcWallStandardCase'
+     1>WrapperBIMMCPP.cpp(50): error C2065: 'WrapperClassC' : undeclared identifier
+     1>WrapperBIMMCPP.cpp(50): error C2065: 't' : undeclared identifier
+     1>WrapperBIMMCPP.cpp(50): error C2061: syntax error : identifier 'WrapperClassC'
+     1>WrapperBIMMCPP.cpp(52): error C2065: 't' : undeclared identifier
+     1>WrapperBIMMCPP.cpp(52): error C2227: left of '->callWrapperCreateWall' must point to class/struct/union/generic type
+                 type is 'unknown-type'
+     1>WrapperBIMMCPP.cpp(52): error C2146: syntax error : missing ')' before identifier 'model'
+     1>WrapperBIMMCPP.cpp(52): error C2059: syntax error : ')'
+     1>WrapperBIMMCPP.cpp(53): warning C4508: 'Java_WrapperBIMJava_callWrapperCreateWall' : function should return a value; 'void' return type assumed
+     1>Done Building Project "C:\Users\Piyali Mukherjee\Documents\Visual Studio 2013\Projects\Wrapper_BIM_MCPP\Wrapper_BIM_MCPP\Wrapper_BIM_MCPP.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.80
