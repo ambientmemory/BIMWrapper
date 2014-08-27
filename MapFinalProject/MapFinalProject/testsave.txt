@@ -1,0 +1,19 @@
+2
+New Place
+40.706
+-74.0089
+testifc2.ifc
+FILE_NAME ('', '2011-01-16T13:17:53', (), (), 'Xbim.Ifc File Processor version 1.0.4033.23747', 'Xbim version 1.0.4033.23747', '');
+FILE_DESCRIPTION ((), '2;1');
+FILE_SCHEMA (('IFC2X3'));
+Very interesting place
+www.yahoo.com
+Wall Street
+40.725
+-74.3050
+testifc1.ifc
+FILE_NAME ('', '2011-01-16T13:17:53', (), (), 'Xbim.Ifc File Processor version 1.0.4033.23747', 'Xbim version 1.0.4033.23747', '');
+FILE_DESCRIPTION ((), '2;1');
+FILE_SCHEMA (('IFC2X3'));
+New place
+www.helloworld.c

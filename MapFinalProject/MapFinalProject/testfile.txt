@@ -1,0 +1,37 @@
+4
+Empire State Building
+40.7484
+-73.9857
+Simple.ifc
+ESB Header Name from IFC
+ESB Header Description from IFC
+ESB Header Schema from IFC
+This is the tallest building in New York!
+http://en.wikipedia.org/wiki/Empire_State_Building
+Butler Library
+40.8064
+-73.9631
+SimpleWall.ifc
+BL Header Name from IFC
+BL Header Description from IFC
+BL Header Schema from IFC
+This has 11 million story books, including Harry Potter !!!
+http://en.wikipedia.org/wiki/Butler_Library
+Metropolitan Museum
+40.7789
+-73.9637
+HelloWall.ifc
+MM Header Name from IFC
+MM Header Description from IFC
+MM Header Schema from IFC
+This is the largest art museum in US, some worth seeing!!
+http://en.wikipedia.org/wiki/Metropolitan_Museum_of_Art
+Wall Street
+40.706
+-74.0089
+testifc1.ifc
+FILE_NAME ('', '2011-01-16T13:17:53', (), (), 'Xbim.Ifc File Processor version 1.0.4033.23747', 'Xbim version 1.0.4033.23747', '');
+FILE_DESCRIPTION ((), '2;1');
+FILE_SCHEMA (('IFC2X3'));
+This is where real money is made !!!
+http://en.wikipedia.org/wiki/Wall_Street

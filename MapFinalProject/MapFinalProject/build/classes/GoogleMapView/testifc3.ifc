@@ -1,0 +1,6 @@
+ISO-10303-21;
+HEADER;
+FILE_DESCRIPTION ((), '2;1');
+FILE_NAME ('', '2011-01-16T13:17:53', (), (), 'Xbim.Ifc File Processor version 1.0.4033.23747', 'Xbim version 1.0.4033.23747', '');
+FILE_SCHEMA (('IFC2X3'));
+ENDSEC;

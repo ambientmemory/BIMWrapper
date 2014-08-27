@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+	<style type="text/css">
+		html { height: 100% }
+		body { height: 100%; margin: 0; padding: 0 }
+		#map-canvas { height: 100%}
+	</style>
+	<title>Google Map View</title>
+	<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDsMRv7WekHwFOUztNBkSA6Rbaz5LrUCnc&amp;sensor=false">
+	</script>
+</head>
+<body>
+<script type="text/javascript">
+var displayStrings = ['<div id="content">'+
+'<div id="siteNotice">'+
+'</div>'+
+'<p style="font-size:16px"><h1 id="firstHeading" class="firstHeading">Empire State Building</h></p>'+
+'<div id="bodyContent">'+
+'<p style="font-size:12px">This is the tallest building in New York!</p>'+
+'<p style="font-size:10px">IFC Header File Name: ESB Header Name from IFC</p>'+
+'<p style="font-size:10px">IFC Header File Descriptor: ESB Header Description from IFC</p>'+
+'<p style="font-size:10px">IFC Header File Schema: ESB Header Schema from IFC</p>'+
+'<p style="font-size:10px"><a href="http://en.wikipedia.org/wiki/Empire_State_Building"><style=font-size:5px>'+
+'http://en.wikipedia.org/wiki/Empire_State_Building</a></p>'+
+'</div>'+
+'</div>',
+'<div id="content">'+
+'<div id="siteNotice">'+
+'</div>'+
+'<p style="font-size:16px"><h1 id="firstHeading" class="firstHeading">Butler Library</h></p>'+
+'<div id="bodyContent">'+
+'<p style="font-size:12px">This has 11 million story books, including Harry Potter !!!</p>'+
+'<p style="font-size:10px">IFC Header File Name: BL Header Name from IFC</p>'+
+'<p style="font-size:10px">IFC Header File Descriptor: BL Header Description from IFC</p>'+
+'<p style="font-size:10px">IFC Header File Schema: BL Header Schema from IFC</p>'+
+'<p style="font-size:10px"><a href="http://en.wikipedia.org/wiki/Butler_Library"><style=font-size:5px>'+
+'http://en.wikipedia.org/wiki/Butler_Library</a></p>'+
+'</div>'+
+'</div>',
+'<div id="content">'+
+'<div id="siteNotice">'+
+'</div>'+
+'<p style="font-size:16px"><h1 id="firstHeading" class="firstHeading">Metropolitan Museum</h></p>'+
+'<div id="bodyContent">'+
+'<p style="font-size:12px">This is the largest art museum in US, some worth seeing!!</p>'+
+'<p style="font-size:10px">IFC Header File Name: MM Header Name from IFC</p>'+
+'<p style="font-size:10px">IFC Header File Descriptor: MM Header Description from IFC</p>'+
+'<p style="font-size:10px">IFC Header File Schema: MM Header Schema from IFC</p>'+
+'<p style="font-size:10px"><a href="http://en.wikipedia.org/wiki/Metropolitan_Museum_of_Art"><style=font-size:5px>'+
+'http://en.wikipedia.org/wiki/Metropolitan_Museum_of_Art</a></p>'+
+'</div>'+
+'</div>',
+'<div id="content">'+
+'<div id="siteNotice">'+
+'</div>'+
+'<p style="font-size:16px"><h1 id="firstHeading" class="firstHeading">Wall Street</h></p>'+
+'<div id="bodyContent">'+
+'<p style="font-size:12px">This is where real money is made !!!</p>'+
+'<p style="font-size:10px">IFC Header File Name: FILE_NAME ("", "2011-01-16T13:17:53", (), (), "Xbim.Ifc File Processor version 1.0.4033.23747", "Xbim version 1.0.4033.23747", "");</p>'+
+'<p style="font-size:10px">IFC Header File Descriptor: FILE_DESCRIPTION ((), "2;1");</p>'+
+'<p style="font-size:10px">IFC Header File Schema: FILE_SCHEMA (("IFC2X3"));</p>'+
+'<p style="font-size:10px"><a href="http://en.wikipedia.org/wiki/Wall_Street"><style=font-size:5px>'+
+'http://en.wikipedia.org/wiki/Wall_Street</a></p>'+
+'</div>'+
+'</div>'];
+var locations = [[40.7484,-73.9857,1],[40.8064,-73.9631,2],[40.7789,-73.9637,3],[40.706,-74.0089,4]];
+var imageIcons = ['building.png','building.png','building.png','building.png'];
+var info = new google.maps.InfoWindow();
+var titles = ['Empire State Building','Butler Library','Metropolitan Museum','Wall Street'];
+function setMarkers(map,locations,imageIcons,titles) {
+	for (i = 0; i < locations.length; i++) {
+		marker = new google.maps.Marker({ 
+			position: new google.maps.LatLng(locations[i][0], locations[i][1]),
+			icon: imageIcons[i],
+			map: map,
+			title: titles[i],
+			zindex: locations[i][2]
+		});
+		google.maps.event.addListener(marker, 'click', (function(marker, i) {
+			return function() {
+				info.setContent(displayStrings[i]);
+				info.open(map, marker);
+			};
+		}) (marker,i));
+	} //End of for loop
+} //End of setMarkers function
+function initialize() {
+	var centreLatlng = new google.maps.LatLng(40.759924999999996,-73.98035);
+	var mapOptions = {
+		zoom: 12,
+		center: centreLatlng
+	};
+	var map = new google.maps.Map(document.getElementById('map-canvas'),mapOptions); 
+	setMarkers(map,locations,imageIcons,titles);
+} //End of initialize() function
+google.maps.event.addDomListener(window, 'load', initialize);
+</script>
+	<div id="map-canvas"></div>
+</body>
+</html>
